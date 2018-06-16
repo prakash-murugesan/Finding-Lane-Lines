@@ -45,7 +45,6 @@ To draw a line we need the x and y values for the top and bottom. The y values a
 
 Now, with the y values, the averaged slope of all edges m, and averaged intercept of all edges b, we can use the y = mx + b equation to derive x values for the lines. We return these x and y values for the left and right lines into the draw_lines() function within the hough transform function to draw our single solid lines. 
 
-If you'd like to include image
 
 ![pipeline flowchart](https://github.com/prakash-murugesan/Finding-Lane-Lines/blob/prakash-murugesan-patch-1/Output%20images/Pipeline.PNG?raw=true)
 
