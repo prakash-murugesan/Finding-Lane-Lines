@@ -45,9 +45,9 @@ To draw a line we need the x and y values for the top and bottom. The y values a
 
 Now, with the y values, the averaged slope of all edges m, and averaged intercept of all edges b, we can use the y = mx + b equation to derive x values for the lines. We return these x and y values for the left and right lines into the draw_lines() function within the hough transform function to draw our single solid lines. 
 
-If you'd like to include image
 
-![pipeline flowchart][image1]
+![pipeline flowchart](https://github.com/prakash-murugesan/Finding-Lane-Lines/blob/prakash-murugesan-patch-1/Output%20images/Pipeline.PNG?raw=true)
+
 
 
 ### Potential Shortcomings
@@ -59,6 +59,9 @@ Another potential shortcoming is what happens when the car is faced with a curvi
 
 ### Potential areas of improvement
 
-A possible improvement would be to smooth out the solid lines that are drawn. Perhaps, our data is overfit, which is why we see such shaky lines. We could use filters to find just vertical edges and then use them for our solid lines.
+A possible improvement would be to smooth out the solid lines that are drawn. Perhaps, our data is overfit, which is why we see such shaky lines. We could use filters to find just vertical edges and then use them for our solid lines and consider averaging over a several frames to further smoothen the jerks. 
 
 Another potential improvement could be to use spline fits or polynomial fits to track the curves in the road better. 
+
+Thank you! 
+Hope you enjoyed this project as much as I did :) 
