@@ -59,6 +59,9 @@ Another potential shortcoming is what happens when the car is faced with a curvi
 
 ### Potential areas of improvement
 
-A possible improvement would be to smooth out the solid lines that are drawn. Perhaps, our data is overfit, which is why we see such shaky lines. We could use filters to find just vertical edges and then use them for our solid lines.
+A possible improvement would be to smooth out the solid lines that are drawn. Perhaps, our data is overfit, which is why we see such shaky lines. We could use filters to find just vertical edges and then use them for our solid lines and consider averaging over a several frames to further smoothen the jerks. 
 
 Another potential improvement could be to use spline fits or polynomial fits to track the curves in the road better. 
+
+Thank you! 
+Hope you enjoyed this project as much as I did :) 
