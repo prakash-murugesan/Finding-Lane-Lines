@@ -19,7 +19,6 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 **Pipeline to detect lane lines in a video** 
 
@@ -44,11 +43,11 @@ The new lines function collects all the variables of the canny edge lines indivi
 
 To draw a line we need the x and y values for the top and bottom. The y values are derived using the boundaries of our region of interest. The bottom is taken simply from the bottom edge of the picture/boundary. The top is a little more complicated, I had to use the meshgrid function to identify all the white lines in the canny image and minimize the y value to get the top edge. 
 
-Now, with the y values, the averaged slope of all edges m, and avergaed intercept of all edges b, we can use the y = mx + b equation to derive x values for the lines. We return these x and y values for the left and right lines into the draw_lines() function within the hough transform function to draw our single solid lines. 
+Now, with the y values, the averaged slope of all edges m, and averaged intercept of all edges b, we can use the y = mx + b equation to derive x values for the lines. We return these x and y values for the left and right lines into the draw_lines() function within the hough transform function to draw our single solid lines. 
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
+If you'd like to include image
 
-![alt text][image1]
+![pipeline flowchart][image1]
 
 
 ### Potential Shortcomings
