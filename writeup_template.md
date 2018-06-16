@@ -47,7 +47,7 @@ Now, with the y values, the averaged slope of all edges m, and averaged intercep
 
 If you'd like to include image
 
-![pipeline flowchart][image1]
+![pipeline flowchart][Pipeline.PNG]
 
 
 ### Potential Shortcomings
