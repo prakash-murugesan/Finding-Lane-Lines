@@ -47,7 +47,8 @@ Now, with the y values, the averaged slope of all edges m, and averaged intercep
 
 If you'd like to include image
 
-![pipeline flowchart][Pipeline.PNG]
+![pipeline flowchart](https://github.com/prakash-murugesan/Finding-Lane-Lines/blob/prakash-murugesan-patch-1/Output%20images/Pipeline.PNG?raw=true)
+
 
 
 ### Potential Shortcomings
